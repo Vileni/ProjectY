@@ -26,7 +26,6 @@ const styles = {
     fontSize: '1rem',
     position: 'fixed',
     bottom: 0,
-    width: '100%',
   },
 };
 

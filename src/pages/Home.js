@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React from 'react';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import useNickname from '../hooks/useNickName';
@@ -9,7 +8,6 @@ import { TextField, Button, Typography, Container, Box } from '@mui/material';
 const Home = () => {
   const { t } = useTranslation();
   const [nickname, saveNickname] = useNickname('nickname');
-  const navigate = useNavigate();
 
   const formik = useFormik({
     initialValues: {
@@ -26,10 +24,6 @@ const Home = () => {
     },
     enableReinitialize: true,
   });
-
-  const navigateToPhotos = () => {
-    navigate('/Photos');
-  };
 
   return (
     <Container maxWidth='sm' style={styles.container}>
