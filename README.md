@@ -15,12 +15,6 @@
 git clone git@github.com:Vileni/ProjectY.git
 ```
 
-#### Start React app port 3000
-
-```sh
-cd app
-```
-
 ```sh
 npm install && npm run start
 ```
