@@ -1,0 +1,17 @@
+{
+    "title": "Enter you nickname",
+    "save_nickname": "Save Nickname",
+    "enter_nickname": "Enter 5-letter nickname",
+    "nick_name_error": "Nickname must be 5 characters long or less",
+    "loading": "Loading...",
+    "error_loading": "Error loading image:",
+    "go_to_photos": "Go To Photos",
+    "nickname_saved": "Nickname saved to localStorage",
+    "footer_text": "Made by Vileni For final exam",
+    "home": "Home",
+    "photos": "Photos",
+    "about": "About",
+    "about_feedback": "Enter your email address and we will get back to you as soon as possible.",
+    "email_address": "Email Address",
+    "submit": "Submit"
+}

@@ -8,13 +8,11 @@
 - Formik✨
 - Local Storage✨
 - Internationalization(English/Georgian)✨
-- React✨
--
 
 ## Download project
 
 ```sh
-git clone //
+git clone git@github.com:Vileni/ProjectY.git
 ```
 
 #### Start React app port 3000
